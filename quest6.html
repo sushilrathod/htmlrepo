@@ -1,0 +1,141 @@
+<html>
+
+<head>
+    <STYLE>
+        .div {
+            display: flex;
+            justify-content: safe;
+        }
+
+        #div2 {
+            margin-left: 450px;
+        }
+
+        #secdiv {
+            margin-left: 426px;
+        }
+
+        #thdiv {
+            margin-left: 316px;
+        }
+
+        #fourdiv {
+            margin-left: 395px;
+        }
+
+        #fivediv {
+            margin-left: 500px;
+        }
+
+        #sixdiv {
+            margin-left: 543px;
+        }
+
+        body {
+            border: 10px solid blue;
+            justify-content: safe;
+        }
+    </STYLE>
+</head>
+
+<body>
+    <h1>Internet Usage Survey</h1>
+    <form>
+
+        this survey is being conducted to help identify the Internate usage patterns of our customers. <br>
+        Please take a few moments to complete this short forms thank you for your coooperation. <br><br><br>
+
+        <div class="div">
+            <div>
+                What typr of Internet connection do you have ? <br>
+                (Select One)
+            </div>
+            <div id="div2">
+                <select name="connection" id="connection">
+                    <option value="Dail-up">Dail-up</option>
+                    <option value="Dsl">Dsl</option>
+                    <option value="High speed cable">High speed cable</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+        </div> <BR> <br>
+        <div class="div">
+            <div id="div1">
+                What type of computer do you use most at home?
+            </div>
+            <div id="secdiv">
+                <input type="radio" name="computer">Desktop
+                <input type="radio" name="computer">Laptop
+            </div>
+        </div> <br>
+        <div class="div">
+            <div>
+                How would you describe your maain reason for using the Internet?
+            </div>
+            <div id="thdiv">
+                <input type="radio">To do work-related activities <br>
+                <input type="radio"> To do School-related work <br>
+                <input type="radio">For entertainment purpose <br>
+                <input type="radio">Other Activities <br>
+
+            </div>
+        </div> <br>
+        <div class="div">
+            <div>
+                <fieldset>
+                    <legend>Types of sites Visited</legend>
+
+                    What types of web sites do you acces most often ? <br>
+                    Check all that apply <br>
+                    <input type="checkbox">Self Improvement <br>
+                    <input type="checkbox">Entertainment <br>
+                    <input type="checkbox">News and Sports <br>
+                    <input type="checkbox">Email <br>
+
+                </fieldset>
+            </div>
+            <div id="fourdiv">
+                <fieldset>
+                    <legend> Time spent using Internet </legend>
+
+                    During an average week ,how lon do you spend online? <br>
+                    <input type="radio"> 0-3 Hours <br>
+                    <input type="radio"> 4-6 Hours <br>
+                    <input type="radio"> 7-10 Hours <br>
+                    <input type="radio"> 11-14 Hours <br>
+                    <input type="radio"> 15+ Hours <br>
+                </fieldset>
+            </div>
+        </div>
+        <br> <br>
+        <div>
+            Please comment on your options concering Internet privacy and safty: <br>
+            <textarea name="comment" cols="100" rows="5"></textarea>
+        </div>
+        <br><br><br>
+        <div class="div">
+            <div>
+                First Name: <input type="text">
+            </div>
+            <div id="fivediv">
+                Last Name: <input type="text">
+            </div>
+        </div> <br>
+        <div class="div">
+            <div>
+                Age: <input type="text">
+            </div>
+            <div id="sixdiv">
+                Zip Code <input type="text">
+            </div>
+        </div> <br><br>
+        <footer align="center">
+            <input type="submit">
+            <input type="reset">
+        </footer>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

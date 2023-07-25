@@ -1,0 +1,64 @@
+#myimg{
+    float: left;
+    height: 52px;
+    width: 110px;
+}
+.hem{
+    /* border: 2px solid black; */
+    font-size: 50px;
+    color: aquamarine;
+    margin-bottom: -6px;
+}
+.him{
+    color: aquamarine;
+    margin: 5px;
+    display: inline-block;
+    font-size: 50px;
+}
+nav ul{
+    list-style: none;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.res{
+    text-align: right;
+}
+#table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#mydiv{
+    display: flex;
+   
+}
+#paradiv{
+    width: 500px;
+}
+#table2{
+    text-align: right;
+}
+.mydiv{
+    display: flex; 
+
+}
+.table-div{
+    border: 2px solid rgb(197, 109, 238);
+    box-shadow: 5px 6px #341d3bcc;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+#paradiv{
+    /* display: inline-block; */
+   margin-top:50px ;
+    margin-right: 660px;
+
+}
+    
+#foot{
+    text-align: center;
+    background-color: aquamarine;
+    margin-top:10px ;
+}
+

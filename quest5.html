@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <style>
+            .dd{
+                width: 40px;
+            }
+            #table1{
+                border-collapse: collapse;
+                background-color: pink;
+            }
+            #t{
+                width: 50px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <table id="table1" border="1">
+            <tr>
+               <th align="left">Name</th>
+               <td> <input type="text"></td>
+            </tr>
+            <tr>
+                <th align="left" >Employee Code</th>
+                <td><input type="text" id="t"></td>
+            </tr>
+            <tr>
+                <th align="left">Department</th>
+                <td><input type="radio">ADMIN <br>
+                <input type="radio">HR <br>
+                <input type="radio">TECHNICAL  <br>
+                <input type="radio">ACCOUNTS</td>  
+                       
+            </tr>
+            <tr>
+                <th align="left">Date of Joining </th>
+                <td><input type="text" class="dd">/<input type="" class="dd">/<input text="" class="dd"><br>dd &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;yyyy</td>
+            </tr>
+            <tr>
+                <th align="left">Address</th>
+                <td><textarea cols="30" rows="5"></textarea></td>
+            </tr>
+             <tr>
+                 <th align="left">Training programs Attended</th>
+                 <td><input type="checkbox" name="Trsining" >HTML/DHTML <br>
+                    <input type="checkbox" name="Trsining" >JAVA <br>
+                    <input type="checkbox" name="Trsining" >CLIENT/SERVER <br>
+                    <input type="checkbox" name="Trsining" >.NET <br>
+                     </td>
+            </tr>
+            <tr>
+                <th align="left">Training Programmes need to attend </th>
+                <td><select name="course" id="" >
+                    <option value="JAVASCIPTS">JAVASCIPTS</option>
+                    <option value="JAVASTRUTS">JAVASTRUTS</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <th align="left">Send the information at</th>
+                <td><a href="#">empinfo@patni.com</a></td>
+            </tr>
+        </table>
+    </body>
+</html>
